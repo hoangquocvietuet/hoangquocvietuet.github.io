@@ -4,6 +4,7 @@ import Posts from './components/Posts.vue';
 import BlogPost from './layouts/blog-post.vue';
 import BlogHome from './layouts/blog-home.vue';
 import IncludeImage from './components/IncludeImage.vue';
+import Editorials from './components/Editorials.vue';
 import CFHandle from './components/CFHandle.vue';
 import ThemeLayout from './theme-layout.vue';
 
@@ -11,6 +12,7 @@ export const theme: Theme = {
     extends: DefaultTheme,
     Layout: ThemeLayout,
     enhanceApp: async ({ app }) => {
+        app.component('Editorials', Editorials);
         app.component('Posts', Posts);
         app.component('blog-post', BlogPost);
         app.component('blog-home', BlogHome);

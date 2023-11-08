@@ -70,7 +70,10 @@ export default defineConfigWithTheme<Config>({
         outline: {
             level: [2, 3],
         },
-        nav: [{ text: 'About', link: '/about' }],
+        nav: [
+            { text: 'About', link: '/about' },
+            { text: 'Editorial', link: '/editorials' },
+        ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/hoangquocvietuet' },
             { icon: 'discord', link: 'https://discordapp.com/users/718831435896717413' },
