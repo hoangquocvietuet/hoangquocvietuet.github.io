@@ -16,13 +16,13 @@ const MathJaxSetting = {
 
 export default defineConfigWithTheme<Config>({
     // site-level options
-    title: 'Darkkcyan blog',
+    title: 'HQVUET',
     description: `
-Just a personal blog. Might be about my job. Might be about my hobby.
-Might be about math. Might be about art. Who knows?`,
+    Dreams are for the dreamers.
+    Goals are for achievers.`,
 
     sitemap: {
-        hostname: 'https://quangloc99.github.io',
+        hostname: 'https://hoangquocvietuet.github.io',
     },
     srcExclude: ['legacy-jekyll-component/**/*'],
 
@@ -72,17 +72,11 @@ Might be about math. Might be about art. Who knows?`,
         },
         nav: [{ text: 'About', link: '/about' }],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/quangloc99' },
-            { icon: 'discord', link: 'https://discord.com/users/501085823480102925' },
-            { icon: 'facebook', link: 'https://www.facebook.com/TQLoc' },
+            { icon: 'github', link: 'https://github.com/hoangquocvietuet' },
+            { icon: 'discord', link: 'https://discordapp.com/users/718831435896717413' },
+            { icon: 'facebook', link: 'https://www.facebook.com/hqvuet' },
         ],
         redirects: [
-            {
-                srcPart: '2022/03/08/polygon-codeforces-tutorial',
-                dest: '/posts/polygon-codeforces-tutorial/index.html',
-            },
-            { srcPart: '2021/10/01/im-red-now-what', dest: '/posts/im-red-now-what/index.html' },
-            { srcPart: '2021/07/30/my-CP-debugging-template.html', dest: '/posts/my-CP-debugging-template.html' },
         ],
     },
 });
