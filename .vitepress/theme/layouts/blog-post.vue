@@ -25,7 +25,7 @@
         </template>
         <template #doc-after>
             <VueUtterances v-if="isProd"
-                repo="quangloc99/quangloc99.github.io"
+                repo="hoangquocvietuet/hoangquocvietuet.github.io"
                 issue-term="title"
                 :theme="isDark ? 'github-dark-orange' : 'github-light'"
             />
