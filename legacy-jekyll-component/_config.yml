@@ -18,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Darkkcyan blog
+title: HQVUET
   
 description: >- # this means to ignore newlines until "baseurl:"
-  Just a personal blog. Might be about my job. Might be about my hobby.
-  Might be about math. Might be about art. Who knows?
+  Dreams are for the dreamers.
+  Goals are for achievers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://quangloc99.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hoangquocvietuet.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
   
 # For minima 2
-email: quangloctran99@gmail.com
-github_username:  quangloc99
+email: hqvuet@vnoi.info
+github_username:  hoangquocvietuet
 
 # Build settings
 # theme: minima 
@@ -39,13 +39,13 @@ plugins:
   - jekyll-seo-tag
     
 author:
-  name: Tran Quang Loc (darkkcyan)
-  email: quangloctran99@gmail.com
+  name: Hoang Quoc Viet (hoangquocvietuet)
+  email: hqvuet@vnoi.info
 minima:
   skin: dynamic
   social_links:
-    github: quangloc99
-    facebook: TQLoc
+    github: hoangquocvietuet
+    facebook: hqvuet
       
 # Currently disable because of the ads
 # disqus: 
