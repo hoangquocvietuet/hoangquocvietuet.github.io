@@ -20,4 +20,8 @@ A few days later, on the 4th floor of the school building, we were introduced to
 
 I still vividly recall the days when we were striving to climb the ranks on the [Codefun](https://codefun.vn/) website, our first online platform for competing with others. My highest rank fluctuated between 3 and 4, but the top student was a prodigy who had won the First Prize in Math in the 9th grade. I used to think I would never be able to catch up with him because he was incredibly talented. However, he eventually gave up programming to join the school’s Math team. We didn’t interact much in high school. His journey taught me a valuable lesson: success comes from pursuing your passions with love and dedication, not just from innate talent.
 
+# At a point when I believed I had grasped it all…
+
+Let’s not dwell on my 10th grade experiences, as there’s not much to share.
+
 
