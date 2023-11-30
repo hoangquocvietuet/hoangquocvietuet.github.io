@@ -34,8 +34,8 @@ Nhận xét tiếp theo là ta chỉ duyệt min và max chia hết cho $i$. Tuy
 
 # Bài 3
 
-Bài này tưởng khó nhưng lại rất đơn giản. Giả sử ta có một số nhị phân sau: $.....10000000$. Nếu lấy số đó trừ đi $1$, ta sẽ tắt bit $1$ nhỏ nhất và bật các bit $0$ ở phía trước.
+Chứng minh đáp án tối thiểu là $x$ và tối đa là $x + 2$ với $x$ là số lượng phần tử $0$. Thật vậy, các phần tử bằng $0$ ta phải tăng lên ít nhất $1$ để chúng có bit bật $\rightarrow$ đáp án tối thiểu là $x$. Mặt khác, ta có thể chứng minh luôn xây dựng được đồ thị liên thông qua tối đa $2$ phép nữa:
+- Xét số $A$ có vị trí của bit $1$ thấp nhất là $pos$ và $pos$ cao nhất. Nếu $A$ là duy nhất thì ta chỉ việc lấy $A - 1$ là sẽ bật các bit $0$ ở sau $pos$. Lúc đó tất cả các đỉnh khác đều có cạnh đến đỉnh này.
+- Nếu $A$ không phải duy nhất, mà tồn tại $B$ cũng có bit $1$ thấp nhất là $pos$. Thì $A - 1$ sẽ có thể không liên thông với $B$. Ta chỉ cần thêm một phép là $B + 1$.
 
-Vậy ta sẽ trừ $1$ đi ở số có bit $1$ nhỏ nhất là lớn nhất. Lúc đấy chắc chắn các số khác sẽ có bit $1$ ở cùng vị trí với số này. Cách làm trên sẽ sai ở trường hợp tồn tại hai số có bit $1$ nhỏ nhất là lớn nhất. Gọi là $A$ và $B$. Nếu giảm $A$ đi một đơn vị thì $B$ không còn liên thông với $A$ nữa. Việc ta cần làm là cộng thêm $1$ vào $B$. Có thể chứng minh đáp án không quá $2$ và cách làm trên là tối ưu.
-
-Lưu ý TH những thằng bằng $0$, ta phải cộng lên ít nhất $1$.
+Vậy chỉ cần tối đa thêm $2$ phép. Ta sẽ đi check có dùng $0$ phép được không, có dùng $1$ phép được không. Nếu không thể thì in ra $2$ là được.
